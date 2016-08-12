@@ -1,7 +1,5 @@
 require "connectors/createsend"
-
 require "hashie/mash"
-
 
 RSpec.describe "Connectors::Creatsend" do
   let(:auth) do
